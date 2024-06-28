@@ -1,1 +1,2 @@
 html { background:#000; color:#FFF; }
+body { height: 95vh; display: flex; flex-flow: column; justify-content: center; }
