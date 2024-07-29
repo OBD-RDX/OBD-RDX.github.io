@@ -1,2 +1,21 @@
 html { background:#000; color:#FFF; }
-body { text-align:center; height: 95vh; display: flex; flex-flow: column; justify-content: center; }
+body { background:#000; margin:0; height: 95vh; display: flex; flex-flow: column; }
+body h1 { font-weight: bold; font-size: 28px; margin: 20px 0; }
+header > img { border-bottom:2px solid red; }
+.nav { font-family:Verdana, sans-serif; gap:45px !important; }
+.nav-underline .nav-link.active, .nav-underline .show>.nav-link  { color:red !important; }
+.nav-link:focus, .nav-link:hover, .nav-underline .nav-link { color:#fff !important; }
+.top-border { border-top:2px solid red; }
+.mainCont { background:#000; width:100%; height:100%; margin-top:50px; color:#FFF; }
+.mainCont .centerUL { text-align:left; width: 505px; margin: 0 auto; }
+footer { color: #FFF; text-align: center; padding: 20px 0; background: red; }
+footer p { font-size:14px; margin:0; }
+/* PAGE SPECIFICS */
+.products .mainCont .box { margin-bottom:50px;}
+/* MEDIA/RESPONSIVE */
+@media all and (max-width: 992px) {
+    .mainCont { margin-top:10px; }
+}
+@media all and (max-width: 567px) {
+    .mainCont .centerUL { width:100%; }
+}
